@@ -1,0 +1,28 @@
+{
+  "name": "node-memory-cache",
+  "version": "1.0.0",
+  "description": "memory-cache app test",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "nodemon":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nimrockdev/node-memory-cache.git"
+  },
+  "author": "Javier\u001b[5~",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nimrockdev/node-memory-cache/issues"
+  },
+  "homepage": "https://github.com/Nimrockdev/node-memory-cache#readme",
+  "dependencies": {
+    "D": "^1.0.0",
+    "express": "^4.17.1",
+    "memory-cache": "^0.2.0",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7"
+  }
+}
